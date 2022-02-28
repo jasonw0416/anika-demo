@@ -1,12 +1,3 @@
-# Shopify Backend Developr Intern Challenge 
-
-
-## Please access the website on the following link:
-https://jasonw0416shopifybackend.herokuapp.com
-
-There is no additional steps or downloads you have to do to launch this web application.
-
-I have developed this program using Node.js and MongoDB
 
 ## Details about this web application ##
 ***
