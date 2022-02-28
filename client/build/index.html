@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RPS</title>
+    <link rel="stylesheet" href="/styles/main.css">
+  </head>
+  <body>
+    <div class="rps-wrapper">
+
+      <div class="button-wrapper">
+
+
+        <form id="create-form">
+          <p>Title <input id="create-chat" />   
+            Price <input type="number" id="create-price" />  
+            Description <input id="create-description" />
+            <button id="create"> CREATE</button></p>
+        </form>
+        <form id="delete-form">
+          <p>Title <input id="delete-chat" />
+            <button id="delete"> DELETE</button></p>
+        </form>
+        <form id="update-form">
+          <p>Old Title <input id="update-chat1" />  
+            New Title <input id="update-chat2" /> 
+            New Price <input type="number" id="update-price" /> 
+            New Description <input id="update-description" /> 
+            <button id="update">UPDATE</button></p>
+        </form>
+        
+      </div>
+      <div id="tables"></div>
+      <a href="/mongodb_to_csv_file.csv" download="AZURE_CSV_FILE">
+        <button id="csv">Export to .csv file</button>
+      </a>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/src/client.js"></script>
+  </body>
+</html>
